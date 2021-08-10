@@ -1,3 +1,5 @@
+#!/bin/sh
+
 echo "Got into Linux-Build.sh"
 ls
 cd ..
