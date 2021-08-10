@@ -2,5 +2,7 @@
 
 #vendor/bin/premake/premake5 gmake2
 echo "Got into Linux-Build.sh"
-sh ls
+ls
+cd ..
+ls
 make
