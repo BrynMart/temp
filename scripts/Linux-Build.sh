@@ -1,4 +1,4 @@
 #!/bin/sh
 
-echo "This is the replacement"
+echo "Second Replacement"
 HelloWorld/make
