@@ -1,8 +1,5 @@
 #!/bin/sh
 
-echo "Got into Linux-Build.sh"
-ls
+echo "This is the replacement"
 cd ..
-ls
-#vendor/bin/premake/premake5 gmake2
-#make
+make
