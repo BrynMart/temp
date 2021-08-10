@@ -4,6 +4,8 @@ pipeline {
 		stage('Build') {
 			steps {
 				sh 'echo ls'
+				sh 'echo cd ..'
+				sh 'echo ls'
 				sh 'echo "Changed and Building..."'
 				sh 'chmod +x scripts/Linux-Build.sh'
 				sh 'scripts/Linux-Build.sh'
