@@ -6,7 +6,7 @@ pipeline {
 				sh 'echo "Changed and Building..."'
 				sh 'chmod +x scripts/Linux-Build.sh'
 				sh 'scripts/Linux-Build.sh'
-				archiveArtifacts artifacts: 'bin/Debug/*', fingerprint: true
+				archiveArtifacts artifacts: 'HelloWorld/*', fingerprint: true
 			}
 		}
 		stage('Test') {
