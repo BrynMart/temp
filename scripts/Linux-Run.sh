@@ -1,3 +1,4 @@
 #!/bin/bash
 
-bin/Debug/helloWorld
+cd HelloWorld
+HelloWorld
