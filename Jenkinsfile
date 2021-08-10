@@ -4,7 +4,7 @@ pipeline {
 		stage('Build') {
 			steps {
 				sh 'echo "Changed and Building..."'
-				
+				sh 'chmod +x scripts/Linux-Build.sh'
 				sh 'scripts/Linux-Build.sh'
 				archiveArtifacts artifacts: 'bin/Debug/*', fingerprint: true
 			}
