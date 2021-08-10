@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd HelloWorld
-HelloWorld
+echo second version
+HelloWorld/HelloWorld
